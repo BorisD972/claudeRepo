@@ -1,0 +1,18 @@
+# Secrets : la clé OpenAI ne doit JAMAIS finir dans git
+.env
+.env.*
+!.env.example
+
+node_modules/
+out/
+build/
+.DS_Store
+
+# Médias lourds (rushs, wav, mattes) : restent sur la machine
+public/**/*.mp4
+public/**/*.mov
+public/**/*.wav
+public/**/*.webm
+work/
+scripts/bin/
+__pycache__/
